@@ -1,0 +1,48 @@
+# --- Arquivos do sistema operacional ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Godot ---
+# Pasta de importação (cache gerado pela engine)
+.import/
+
+# Arquivos de importação individuais
+*.import
+
+# Arquivos de cache de recursos
+*.translation
+
+# Arquivos temporários do editor
+*.tmp
+*.swp
+*.swo
+
+# Configuração de usuário (não compartilhar no repo)
+.godot/
+
+# Builds exportadas (não precisa versionar binários)
+*.exe
+*.apk
+*.aab
+*.xcodeproj
+*.vs
+*.dll
+*.so
+*.dylib
+*.pck
+*.zip
+*.tar.gz
+
+# Logs
+*.log
+
+# --- VSCode (se alguém usar) ---
+.vscode/
+
+# --- JetBrains IDEs ---
+.idea/
+
+# --- Outros ---
+*.bak
+
